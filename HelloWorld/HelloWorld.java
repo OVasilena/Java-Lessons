@@ -13,5 +13,6 @@ public class HelloWorld {
         System.out.println("\n\t"+"Ура"+" "+"+"+"\t ="+ x);
         System.out.println("УРА"+" "+500.000);
         System.out.println(y-z);
+        System.out.println(y-z-x);
     }
 }
