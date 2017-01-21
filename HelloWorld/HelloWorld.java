@@ -12,7 +12,8 @@ public class HelloWorld {
         System.out.println("\u0423\u0440\u0430 \n");
         System.out.println("\n\t"+"Ура"+" "+"+"+"\t ="+ x);
         System.out.println("УРА"+" "+500.000);
-        System.out.println(y-z);
-        System.out.println(y-z-x);
+
+        System.out.println(y-z-x);//komment
+        //Github Test
     }
 }
