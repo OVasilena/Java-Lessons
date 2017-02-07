@@ -10,9 +10,15 @@ package kleineAufgaben;
  * >130км/ч --> забрать права
  * скорость F
  **/
+
+import java.util.Scanner;
+
 public class Flensburg {
     public static void main(String[] args) {
-        int g = 130;
+        System.out.println("Введите скорость машины");
+        Scanner eingabe = new Scanner(System.in);
+        int g = eingabe.nextInt();
+        //int g = 130;
         int a, m, h;
         a = 60;
         m = 100;
@@ -30,6 +36,7 @@ public class Flensburg {
             System.out.println("Вы превысили скорость. Сдайте свои права!");
 
         }
+        System.err.println("Программа отработала без ошибок");
 
     }
 
